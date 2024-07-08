@@ -194,11 +194,10 @@ int main()
                 return 0;
             default:
                 cout << "Pilihan tidak Valid\n";
-                continue;
+                break;
             }
 
-            jalur->input();
-            jalur->tampiltotal();
+            
         }
         catch (exception &e)
         {
